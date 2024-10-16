@@ -8,7 +8,7 @@ class stack:
         if len(self.stack)+num_element > self.size:
             print("Stack is overflow")
         else:
-            for i in range(num_element):
+            for _ in range(num_element):
                 element =input("Enter the element: ")
                 self.stack.append(element)
                 
