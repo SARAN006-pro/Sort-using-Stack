@@ -1,4 +1,4 @@
-class Stack:
+class Sorting:
     def __init__(self,size):
         self.size=size
         self.stack = []
@@ -30,7 +30,7 @@ class Stack:
             temp_stack.append(temp)  
         self.stack = temp_stack
         
-obj = stack(10)
+obj = Sorting(10)
 obj.push()
 obj.display()
 print("After Sort The Stack:")
